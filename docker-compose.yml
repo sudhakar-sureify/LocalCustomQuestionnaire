@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: mras_service
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html
+    environment:
+      XDEBUG_MODE: debug
+      XDEBUG_CONFIG: "client_host=172.17.0.1 client_port=9003"
+    user: "${UID}:${GID}"  # Runs as your Linux user
+

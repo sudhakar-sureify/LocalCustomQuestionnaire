@@ -1,0 +1,5 @@
+[17-Feb-2025 17:18:01 UTC] PHP Fatal error:  Cannot redeclare get_questionnaire() (previously declared in /var/www/html/application/helpers/converter_helper.php:18) in /var/www/html/application/helpers/converter_helper.php on line 28
+[17-Feb-2025 17:18:22 UTC] PHP Fatal error:  Cannot redeclare get_questionnaire() (previously declared in /var/www/html/application/helpers/converter_helper.php:18) in /var/www/html/application/helpers/converter_helper.php on line 28
+[17-Feb-2025 17:19:09 UTC] PHP Fatal error:  Cannot redeclare get_questionnaire() (previously declared in /var/www/html/application/helpers/converter_helper.php:18) in /var/www/html/application/helpers/converter_helper.php on line 28
+[17-Feb-2025 17:19:33 UTC] PHP Fatal error:  Cannot redeclare get_questionnaire() (previously declared in /var/www/html/application/helpers/converter_helper.php:18) in /var/www/html/application/helpers/converter_helper.php on line 28
+[17-Feb-2025 17:20:05 UTC] PHP Fatal error:  Cannot redeclare get_questionnaire() (previously declared in /var/www/html/application/helpers/converter_helper.php:18) in /var/www/html/application/helpers/converter_helper.php on line 28
