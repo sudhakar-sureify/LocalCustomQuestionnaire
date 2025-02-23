@@ -466,7 +466,7 @@ if ( ! function_exists('log_message'))
 			// references cannot be directly assigned to static variables, so we use an array
 			$_log[0] =& load_class('Log', 'core');
 		}
-
+		//fwrite(STDOUT, $message.PHP_EOL);
 		$_log[0]->write_log($level, $message);
 	}
 }
