@@ -6,7 +6,7 @@
  *
  * This content is released under the MIT License (MIT)
  *
- * Copyright (c) 2019 - 2022, CodeIgniter Foundation
+ * Copyright (c) 2014 - 2018, British Columbia Institute of Technology
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -29,9 +29,8 @@
  * @package	CodeIgniter
  * @author	EllisLab Dev Team
  * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (https://ellislab.com/)
- * @copyright	Copyright (c) 2014 - 2019, British Columbia Institute of Technology (https://bcit.ca/)
- * @copyright	Copyright (c) 2019 - 2022, CodeIgniter Foundation (https://codeigniter.com/)
- * @license	https://opensource.org/licenses/MIT	MIT License
+ * @copyright	Copyright (c) 2014 - 2018, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license	http://opensource.org/licenses/MIT	MIT License
  * @link	https://codeigniter.com
  * @since	Version 1.0.0
  * @filesource
@@ -45,8 +44,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @subpackage	Libraries
  * @category	Logging
  * @author		EllisLab Dev Team
- * @link		https://codeigniter.com/userguide3/general/errors.html
+ * @link		https://codeigniter.com/user_guide/general/errors.html
  */
+#[\AllowDynamicProperties]
 class CI_Log {
 
 	/**
@@ -103,7 +103,8 @@ class CI_Log {
 	 *
 	 * @var array
 	 */
-	protected $_levels = array('ERROR' => 1, 'DEBUG' => 2, 'INFO' => 3, 'ALL' => 4);
+        
+	protected $_levels = array('ERROR' => 1, 'LOG' => 2, 'DEBUG' => 3, 'INFO' => 4, 'ALL' => 5);
 
 	/**
 	 * mbstring.func_overload flag
@@ -123,9 +124,11 @@ class CI_Log {
 	{
 		$config =& get_config();
 
-		isset(self::$func_overload) OR self::$func_overload = ( ! is_php('8.0') && extension_loaded('mbstring') && @ini_get('mbstring.func_overload'));
+		isset(self::$func_overload) OR self::$func_overload = (extension_loaded('mbstring') && ini_get('mbstring.func_overload'));
 
 		$this->_log_path = ($config['log_path'] !== '') ? $config['log_path'] : APPPATH.'logs/';
+                  $this->_log_stdout = $config['log_stdout'];
+                  
 		$this->_file_ext = (isset($config['log_file_extension']) && $config['log_file_extension'] !== '')
 			? ltrim($config['log_file_extension'], '.') : 'php';
 
@@ -228,6 +231,15 @@ class CI_Log {
 
 		flock($fp, LOCK_UN);
 		fclose($fp);
+                
+        if (true)
+		{
+            $out = fopen('php://stdout', 'w'); //output handler
+            flock($out, LOCK_EX);
+            fputs($out, $message); //writing output operation
+            flock($out, LOCK_UN);
+            fclose($out);
+		}
 
 		if (isset($newfile) && $newfile === TRUE)
 		{
@@ -248,11 +260,11 @@ class CI_Log {
 	 * @param	string	$level 	The error level
 	 * @param	string	$date 	Formatted date string
 	 * @param	string	$message 	The log message
-	 * @return	string	Formatted log line with a new line character at the end
+	 * @return	string	Formatted log line with a new line character '\n' at the end
 	 */
 	protected function _format_line($level, $date, $message)
 	{
-		return $level.' - '.$date.' --> '.$message.PHP_EOL;
+		return $level.' - '.$date.' --> '.$message."\n";
 	}
 
 	// --------------------------------------------------------------------
