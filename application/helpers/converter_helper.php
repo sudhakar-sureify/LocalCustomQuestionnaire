@@ -37,11 +37,7 @@ if (!function_exists('get_disclosure')) {
 if(!function_exists('makeAPICall')) {
     function makeAPICall($api_config, $params = null, $curl_params = array())
     {
-                // $apipath = '', $methodname, $params, $requesttype = 'POST', $headers = array(), $input_type = ''
-        //{"apiName":"getQuote", "apiUrl":"http://localhost/getQuoteApi", "reqProtocol":"soap", "method":"POST", "defaultParams":"", "headerParams":""},
         $arguments = func_get_args();
-
-        
         $url = $api_config['apiUrl'];
         $requesttype = strtoupper($api_config['method']);
         $headers = $api_config['headerParams'];
@@ -49,8 +45,6 @@ if(!function_exists('makeAPICall')) {
             $headers = array_merge($headers, $params['headers']);
             unset($params['headers']);
         }
-
-        // Merging defaultParams in $api_config and $params START
         if (empty($api_config['defaultParams'])) {
             $api_config['defaultParams'] = [];
         }
