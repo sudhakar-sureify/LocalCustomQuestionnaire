@@ -7,7 +7,7 @@
  * @author      Asad Siddiqui <asad@sureify.com>
  * @createdDate 25-April-2019
  */
-require_once APPPATH . 'libraries/LogModerator.php';
+require_once APPPATH . 'libraries/Log/LogModerator.php';
 use Sentry;
 
 /**
