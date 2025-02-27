@@ -134,4 +134,4 @@ $autoload['language'] = array();
 */
 $autoload['model'] = array();
 // application/config/autoload.php
-$autoload['libraries'] = ['BaseConverter', 'MrasConverter', 'SwisreConverter'];
+$autoload['libraries'] = ['Mras/MrasConverter'];

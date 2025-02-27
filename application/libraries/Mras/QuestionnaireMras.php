@@ -1,17 +1,18 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-require_once APPPATH . 'libraries/Logger.php';
+require_once APPPATH . 'libraries/Log/Logger.php';
 
 class QuestionnaireMras {
+    public $caseId=null; 
     public function __construct() {
         $this->CI =& get_instance();
+        $this->caseId=$this->CI->caseId;
     }
     public function createCase($payload) {
-        Logger::log("hi");
-        Logger::log("hiii");
         $this->token = self::getAuthToken();
         $token = $this->token['access_token'];
+        $payload = !is_string($payload) ? json_encode($payload) : $payload;
         $api_config = [
             "reqProtocol" => "curl",
             "method" => "POST",
@@ -22,12 +23,11 @@ class QuestionnaireMras {
             ],
             "apiDisplayName" => "create Full Case",
         ];
-        $payload = json_encode($payload);
         try{
             $response_data = makeAPICall($api_config,$payload);
         }
         catch (APIException $e){
-            //Logger::logException($e);
+            Logger::logException($e);
          }
         
         return json_decode($response_data, true);
@@ -49,7 +49,7 @@ class QuestionnaireMras {
         try {
             $response_data = makeAPICall($api_config,$payload);
         } catch (APIException $e) {
-            //Logger::logException($e);
+            Logger::logException($e);
         }
 
         if ($response_data) {
@@ -98,7 +98,7 @@ class QuestionnaireMras {
 
         }
         catch (MalformedExternalRequest $e) {
-            //Logger::logException($e);
+            Logger::logException($e);
             return $error_map;
         }
         return $response_data;

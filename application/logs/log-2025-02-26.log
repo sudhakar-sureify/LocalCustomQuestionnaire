@@ -1,0 +1,403 @@
+ERROR - 2025-02-26 05:09:59 --> Severity: Warning --> Undefined array key "log_stdout" /var/www/html/system/core/Log.php 130
+INFO - 2025-02-26 05:09:59 --> Config Class Initialized
+INFO - 2025-02-26 05:09:59 --> Hooks Class Initialized
+DEBUG - 2025-02-26 05:09:59 --> UTF-8 Support Enabled
+INFO - 2025-02-26 05:09:59 --> Utf8 Class Initialized
+INFO - 2025-02-26 05:09:59 --> URI Class Initialized
+INFO - 2025-02-26 05:09:59 --> Router Class Initialized
+INFO - 2025-02-26 05:09:59 --> Output Class Initialized
+INFO - 2025-02-26 05:09:59 --> Security Class Initialized
+DEBUG - 2025-02-26 05:09:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-02-26 05:09:59 --> Input Class Initialized
+INFO - 2025-02-26 05:09:59 --> Language Class Initialized
+INFO - 2025-02-26 05:09:59 --> Loader Class Initialized
+ERROR - 2025-02-26 05:09:59 --> Severity: Warning --> The use statement with non-compound name 'Sentry' has no effect /var/www/html/application/libraries/Logger.php 11
+ERROR - 2025-02-26 05:09:59 --> Severity: Warning --> Undefined property: BaseController::$caseId /var/www/html/application/libraries/QuestionnaireMras.php 10
+ERROR - 2025-02-26 05:09:59 --> Severity: Warning --> Undefined property: BaseController::$case_id /var/www/html/application/libraries/MrasConverter.php 100
+INFO - 2025-02-26 05:09:59 --> Controller Class Initialized
+INFO - 2025-02-26 05:09:59 --> Final output sent to browser
+DEBUG - 2025-02-26 05:09:59 --> Total execution time: 0.0067
+ERROR - 2025-02-26 05:10:06 --> Severity: Warning --> Undefined array key "log_stdout" /var/www/html/system/core/Log.php 130
+INFO - 2025-02-26 05:10:06 --> Config Class Initialized
+INFO - 2025-02-26 05:10:06 --> Hooks Class Initialized
+DEBUG - 2025-02-26 05:10:06 --> UTF-8 Support Enabled
+INFO - 2025-02-26 05:10:06 --> Utf8 Class Initialized
+INFO - 2025-02-26 05:10:06 --> URI Class Initialized
+INFO - 2025-02-26 05:10:06 --> Router Class Initialized
+INFO - 2025-02-26 05:10:06 --> Output Class Initialized
+INFO - 2025-02-26 05:10:06 --> Security Class Initialized
+DEBUG - 2025-02-26 05:10:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-02-26 05:10:06 --> Input Class Initialized
+INFO - 2025-02-26 05:10:06 --> Language Class Initialized
+INFO - 2025-02-26 05:10:06 --> Loader Class Initialized
+ERROR - 2025-02-26 05:10:06 --> Severity: Warning --> The use statement with non-compound name 'Sentry' has no effect /var/www/html/application/libraries/Logger.php 11
+ERROR - 2025-02-26 05:10:06 --> Severity: Warning --> Undefined property: BaseController::$caseId /var/www/html/application/libraries/QuestionnaireMras.php 10
+ERROR - 2025-02-26 05:10:06 --> Severity: Warning --> Undefined property: BaseController::$case_id /var/www/html/application/libraries/MrasConverter.php 100
+INFO - 2025-02-26 05:10:06 --> Controller Class Initialized
+INFO - 2025-02-26 05:10:06 --> Helper loaded: converter_helper
+ERROR - 2025-02-26 05:10:06 --> Severity: error --> Exception: Invalid client type /var/www/html/application/helpers/converter_helper.php 23
+ERROR - 2025-02-26 05:26:34 --> Severity: Warning --> Undefined array key "log_stdout" /var/www/html/system/core/Log.php 130
+INFO - 2025-02-26 05:26:34 --> Config Class Initialized
+INFO - 2025-02-26 05:26:34 --> Hooks Class Initialized
+DEBUG - 2025-02-26 05:26:34 --> UTF-8 Support Enabled
+INFO - 2025-02-26 05:26:34 --> Utf8 Class Initialized
+INFO - 2025-02-26 05:26:34 --> URI Class Initialized
+INFO - 2025-02-26 05:26:34 --> Router Class Initialized
+INFO - 2025-02-26 05:26:34 --> Output Class Initialized
+INFO - 2025-02-26 05:26:34 --> Security Class Initialized
+DEBUG - 2025-02-26 05:26:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-02-26 05:26:34 --> Input Class Initialized
+INFO - 2025-02-26 05:26:34 --> Language Class Initialized
+INFO - 2025-02-26 05:26:34 --> Loader Class Initialized
+ERROR - 2025-02-26 05:26:34 --> Severity: Warning --> The use statement with non-compound name 'Sentry' has no effect /var/www/html/application/libraries/Logger.php 11
+ERROR - 2025-02-26 05:26:34 --> Severity: Warning --> Undefined property: BaseController::$caseId /var/www/html/application/libraries/QuestionnaireMras.php 10
+ERROR - 2025-02-26 05:26:34 --> Severity: Warning --> Undefined property: BaseController::$case_id /var/www/html/application/libraries/MrasConverter.php 100
+INFO - 2025-02-26 05:26:34 --> Controller Class Initialized
+INFO - 2025-02-26 05:26:46 --> Helper loaded: converter_helper
+ERROR - 2025-02-26 05:26:56 --> Severity: error --> Exception: Invalid client type /var/www/html/application/helpers/converter_helper.php 23
+ERROR - 2025-02-26 05:28:00 --> Severity: Warning --> Undefined array key "log_stdout" /var/www/html/system/core/Log.php 130
+INFO - 2025-02-26 05:28:00 --> Config Class Initialized
+INFO - 2025-02-26 05:28:00 --> Hooks Class Initialized
+DEBUG - 2025-02-26 05:28:00 --> UTF-8 Support Enabled
+INFO - 2025-02-26 05:28:00 --> Utf8 Class Initialized
+INFO - 2025-02-26 05:28:00 --> URI Class Initialized
+INFO - 2025-02-26 05:28:00 --> Router Class Initialized
+INFO - 2025-02-26 05:28:00 --> Output Class Initialized
+INFO - 2025-02-26 05:28:00 --> Security Class Initialized
+DEBUG - 2025-02-26 05:28:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-02-26 05:28:00 --> Input Class Initialized
+INFO - 2025-02-26 05:28:00 --> Language Class Initialized
+INFO - 2025-02-26 05:28:00 --> Loader Class Initialized
+ERROR - 2025-02-26 05:28:00 --> Severity: Warning --> The use statement with non-compound name 'Sentry' has no effect /var/www/html/application/libraries/Logger.php 11
+ERROR - 2025-02-26 05:28:00 --> Severity: Warning --> Undefined property: BaseController::$caseId /var/www/html/application/libraries/QuestionnaireMras.php 10
+ERROR - 2025-02-26 05:28:00 --> Severity: Warning --> Undefined property: BaseController::$case_id /var/www/html/application/libraries/MrasConverter.php 100
+INFO - 2025-02-26 05:28:00 --> Controller Class Initialized
+INFO - 2025-02-26 05:28:04 --> Helper loaded: converter_helper
+INFO - 2025-02-26 05:28:13 --> Final output sent to browser
+DEBUG - 2025-02-26 05:28:13 --> Total execution time: 13.8486
+ERROR - 2025-02-26 05:56:05 --> Severity: Warning --> Undefined array key "log_stdout" /var/www/html/system/core/Log.php 130
+INFO - 2025-02-26 05:56:05 --> Config Class Initialized
+INFO - 2025-02-26 05:56:05 --> Hooks Class Initialized
+DEBUG - 2025-02-26 05:56:05 --> UTF-8 Support Enabled
+INFO - 2025-02-26 05:56:05 --> Utf8 Class Initialized
+INFO - 2025-02-26 05:56:05 --> URI Class Initialized
+INFO - 2025-02-26 05:56:05 --> Router Class Initialized
+INFO - 2025-02-26 05:56:05 --> Output Class Initialized
+INFO - 2025-02-26 05:56:05 --> Security Class Initialized
+DEBUG - 2025-02-26 05:56:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-02-26 05:56:05 --> Input Class Initialized
+INFO - 2025-02-26 05:56:05 --> Language Class Initialized
+INFO - 2025-02-26 05:56:05 --> Loader Class Initialized
+ERROR - 2025-02-26 05:56:05 --> Unable to load the requested class: BaseConverter
+ERROR - 2025-02-26 05:56:25 --> Severity: Warning --> Undefined array key "log_stdout" /var/www/html/system/core/Log.php 130
+INFO - 2025-02-26 05:56:25 --> Config Class Initialized
+INFO - 2025-02-26 05:56:25 --> Hooks Class Initialized
+DEBUG - 2025-02-26 05:56:25 --> UTF-8 Support Enabled
+INFO - 2025-02-26 05:56:25 --> Utf8 Class Initialized
+INFO - 2025-02-26 05:56:25 --> URI Class Initialized
+INFO - 2025-02-26 05:56:25 --> Router Class Initialized
+INFO - 2025-02-26 05:56:25 --> Output Class Initialized
+INFO - 2025-02-26 05:56:25 --> Security Class Initialized
+DEBUG - 2025-02-26 05:56:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-02-26 05:56:25 --> Input Class Initialized
+INFO - 2025-02-26 05:56:25 --> Language Class Initialized
+INFO - 2025-02-26 05:56:25 --> Loader Class Initialized
+ERROR - 2025-02-26 05:56:25 --> Unable to load the requested class: BaseConverter
+ERROR - 2025-02-26 05:57:14 --> Severity: Warning --> Undefined array key "log_stdout" /var/www/html/system/core/Log.php 130
+INFO - 2025-02-26 05:57:14 --> Config Class Initialized
+INFO - 2025-02-26 05:57:14 --> Hooks Class Initialized
+DEBUG - 2025-02-26 05:57:14 --> UTF-8 Support Enabled
+INFO - 2025-02-26 05:57:14 --> Utf8 Class Initialized
+INFO - 2025-02-26 05:57:14 --> URI Class Initialized
+INFO - 2025-02-26 05:57:14 --> Router Class Initialized
+INFO - 2025-02-26 05:57:14 --> Output Class Initialized
+INFO - 2025-02-26 05:57:14 --> Security Class Initialized
+DEBUG - 2025-02-26 05:57:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-02-26 05:57:14 --> Input Class Initialized
+INFO - 2025-02-26 05:57:14 --> Language Class Initialized
+INFO - 2025-02-26 05:57:14 --> Loader Class Initialized
+ERROR - 2025-02-26 05:57:14 --> Unable to load the requested class: BaseConverter
+ERROR - 2025-02-26 05:58:21 --> Severity: Warning --> Undefined array key "log_stdout" /var/www/html/system/core/Log.php 130
+INFO - 2025-02-26 05:58:21 --> Config Class Initialized
+INFO - 2025-02-26 05:58:21 --> Hooks Class Initialized
+DEBUG - 2025-02-26 05:58:21 --> UTF-8 Support Enabled
+INFO - 2025-02-26 05:58:21 --> Utf8 Class Initialized
+INFO - 2025-02-26 05:58:21 --> URI Class Initialized
+INFO - 2025-02-26 05:58:21 --> Router Class Initialized
+INFO - 2025-02-26 05:58:21 --> Output Class Initialized
+INFO - 2025-02-26 05:58:21 --> Security Class Initialized
+DEBUG - 2025-02-26 05:58:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-02-26 05:58:21 --> Input Class Initialized
+INFO - 2025-02-26 05:58:21 --> Language Class Initialized
+INFO - 2025-02-26 05:58:21 --> Loader Class Initialized
+ERROR - 2025-02-26 05:58:21 --> Unable to load the requested class: BaseConverter
+ERROR - 2025-02-26 05:58:25 --> Severity: Warning --> Undefined array key "log_stdout" /var/www/html/system/core/Log.php 130
+INFO - 2025-02-26 05:58:25 --> Config Class Initialized
+INFO - 2025-02-26 05:58:25 --> Hooks Class Initialized
+DEBUG - 2025-02-26 05:58:25 --> UTF-8 Support Enabled
+INFO - 2025-02-26 05:58:25 --> Utf8 Class Initialized
+INFO - 2025-02-26 05:58:25 --> URI Class Initialized
+INFO - 2025-02-26 05:58:25 --> Router Class Initialized
+INFO - 2025-02-26 05:58:25 --> Output Class Initialized
+INFO - 2025-02-26 05:58:25 --> Security Class Initialized
+DEBUG - 2025-02-26 05:58:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-02-26 05:58:25 --> Input Class Initialized
+INFO - 2025-02-26 05:58:25 --> Language Class Initialized
+INFO - 2025-02-26 05:58:25 --> Loader Class Initialized
+ERROR - 2025-02-26 05:58:25 --> Unable to load the requested class: BaseConverter
+ERROR - 2025-02-26 05:59:54 --> Severity: Warning --> Undefined array key "log_stdout" /var/www/html/system/core/Log.php 130
+INFO - 2025-02-26 05:59:54 --> Config Class Initialized
+INFO - 2025-02-26 05:59:54 --> Hooks Class Initialized
+DEBUG - 2025-02-26 05:59:54 --> UTF-8 Support Enabled
+INFO - 2025-02-26 05:59:54 --> Utf8 Class Initialized
+INFO - 2025-02-26 05:59:54 --> URI Class Initialized
+INFO - 2025-02-26 05:59:54 --> Router Class Initialized
+INFO - 2025-02-26 05:59:54 --> Output Class Initialized
+INFO - 2025-02-26 05:59:54 --> Security Class Initialized
+DEBUG - 2025-02-26 05:59:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-02-26 05:59:54 --> Input Class Initialized
+INFO - 2025-02-26 05:59:54 --> Language Class Initialized
+INFO - 2025-02-26 05:59:54 --> Loader Class Initialized
+ERROR - 2025-02-26 05:59:54 --> Unable to load the requested class: BaseConverter
+ERROR - 2025-02-26 06:02:11 --> Severity: Warning --> Undefined array key "log_stdout" /var/www/html/system/core/Log.php 130
+INFO - 2025-02-26 06:02:11 --> Config Class Initialized
+INFO - 2025-02-26 06:02:11 --> Hooks Class Initialized
+DEBUG - 2025-02-26 06:02:11 --> UTF-8 Support Enabled
+INFO - 2025-02-26 06:02:11 --> Utf8 Class Initialized
+INFO - 2025-02-26 06:02:11 --> URI Class Initialized
+INFO - 2025-02-26 06:02:11 --> Router Class Initialized
+INFO - 2025-02-26 06:02:11 --> Output Class Initialized
+INFO - 2025-02-26 06:02:11 --> Security Class Initialized
+DEBUG - 2025-02-26 06:02:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-02-26 06:02:11 --> Input Class Initialized
+INFO - 2025-02-26 06:02:11 --> Language Class Initialized
+INFO - 2025-02-26 06:02:11 --> Loader Class Initialized
+ERROR - 2025-02-26 06:02:11 --> Unable to load the requested class: BaseConverter
+ERROR - 2025-02-26 06:02:38 --> Severity: Warning --> Undefined array key "log_stdout" /var/www/html/system/core/Log.php 130
+INFO - 2025-02-26 06:02:38 --> Config Class Initialized
+INFO - 2025-02-26 06:02:38 --> Hooks Class Initialized
+DEBUG - 2025-02-26 06:02:38 --> UTF-8 Support Enabled
+INFO - 2025-02-26 06:02:38 --> Utf8 Class Initialized
+INFO - 2025-02-26 06:02:38 --> URI Class Initialized
+INFO - 2025-02-26 06:02:38 --> Router Class Initialized
+INFO - 2025-02-26 06:02:38 --> Output Class Initialized
+INFO - 2025-02-26 06:02:38 --> Security Class Initialized
+DEBUG - 2025-02-26 06:02:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-02-26 06:02:38 --> Input Class Initialized
+INFO - 2025-02-26 06:02:38 --> Language Class Initialized
+INFO - 2025-02-26 06:02:38 --> Loader Class Initialized
+ERROR - 2025-02-26 06:02:38 --> Unable to load the requested class: BaseConverter
+ERROR - 2025-02-26 06:03:23 --> Severity: Warning --> Undefined array key "log_stdout" /var/www/html/system/core/Log.php 130
+INFO - 2025-02-26 06:03:23 --> Config Class Initialized
+INFO - 2025-02-26 06:03:23 --> Hooks Class Initialized
+DEBUG - 2025-02-26 06:03:23 --> UTF-8 Support Enabled
+INFO - 2025-02-26 06:03:23 --> Utf8 Class Initialized
+INFO - 2025-02-26 06:03:23 --> URI Class Initialized
+INFO - 2025-02-26 06:03:23 --> Router Class Initialized
+INFO - 2025-02-26 06:03:23 --> Output Class Initialized
+INFO - 2025-02-26 06:03:23 --> Security Class Initialized
+DEBUG - 2025-02-26 06:03:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-02-26 06:03:23 --> Input Class Initialized
+INFO - 2025-02-26 06:03:23 --> Language Class Initialized
+INFO - 2025-02-26 06:03:23 --> Loader Class Initialized
+ERROR - 2025-02-26 06:03:43 --> Severity: Warning --> Undefined array key "log_stdout" /var/www/html/system/core/Log.php 130
+INFO - 2025-02-26 06:03:43 --> Config Class Initialized
+INFO - 2025-02-26 06:03:43 --> Hooks Class Initialized
+DEBUG - 2025-02-26 06:03:43 --> UTF-8 Support Enabled
+INFO - 2025-02-26 06:03:43 --> Utf8 Class Initialized
+INFO - 2025-02-26 06:03:43 --> URI Class Initialized
+INFO - 2025-02-26 06:03:43 --> Router Class Initialized
+INFO - 2025-02-26 06:03:43 --> Output Class Initialized
+INFO - 2025-02-26 06:03:43 --> Security Class Initialized
+DEBUG - 2025-02-26 06:03:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-02-26 06:03:43 --> Input Class Initialized
+INFO - 2025-02-26 06:03:43 --> Language Class Initialized
+INFO - 2025-02-26 06:03:43 --> Loader Class Initialized
+ERROR - 2025-02-26 06:04:56 --> Severity: Warning --> Undefined array key "log_stdout" /var/www/html/system/core/Log.php 130
+INFO - 2025-02-26 06:04:56 --> Config Class Initialized
+INFO - 2025-02-26 06:04:56 --> Hooks Class Initialized
+DEBUG - 2025-02-26 06:04:56 --> UTF-8 Support Enabled
+INFO - 2025-02-26 06:04:56 --> Utf8 Class Initialized
+INFO - 2025-02-26 06:04:56 --> URI Class Initialized
+INFO - 2025-02-26 06:04:56 --> Router Class Initialized
+INFO - 2025-02-26 06:04:56 --> Output Class Initialized
+INFO - 2025-02-26 06:04:56 --> Security Class Initialized
+DEBUG - 2025-02-26 06:04:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-02-26 06:04:56 --> Input Class Initialized
+INFO - 2025-02-26 06:04:56 --> Language Class Initialized
+INFO - 2025-02-26 06:04:56 --> Loader Class Initialized
+ERROR - 2025-02-26 06:05:16 --> Severity: Warning --> Undefined array key "log_stdout" /var/www/html/system/core/Log.php 130
+INFO - 2025-02-26 06:05:16 --> Config Class Initialized
+INFO - 2025-02-26 06:05:16 --> Hooks Class Initialized
+DEBUG - 2025-02-26 06:05:16 --> UTF-8 Support Enabled
+INFO - 2025-02-26 06:05:16 --> Utf8 Class Initialized
+INFO - 2025-02-26 06:05:16 --> URI Class Initialized
+INFO - 2025-02-26 06:05:16 --> Router Class Initialized
+INFO - 2025-02-26 06:05:16 --> Output Class Initialized
+INFO - 2025-02-26 06:05:16 --> Security Class Initialized
+DEBUG - 2025-02-26 06:05:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-02-26 06:05:16 --> Input Class Initialized
+INFO - 2025-02-26 06:05:16 --> Language Class Initialized
+INFO - 2025-02-26 06:05:16 --> Loader Class Initialized
+ERROR - 2025-02-26 06:06:28 --> Severity: Warning --> Undefined array key "log_stdout" /var/www/html/system/core/Log.php 130
+INFO - 2025-02-26 06:06:28 --> Config Class Initialized
+INFO - 2025-02-26 06:06:28 --> Hooks Class Initialized
+DEBUG - 2025-02-26 06:06:28 --> UTF-8 Support Enabled
+INFO - 2025-02-26 06:06:28 --> Utf8 Class Initialized
+INFO - 2025-02-26 06:06:28 --> URI Class Initialized
+INFO - 2025-02-26 06:06:28 --> Router Class Initialized
+INFO - 2025-02-26 06:06:28 --> Output Class Initialized
+INFO - 2025-02-26 06:06:28 --> Security Class Initialized
+DEBUG - 2025-02-26 06:06:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-02-26 06:06:28 --> Input Class Initialized
+INFO - 2025-02-26 06:06:28 --> Language Class Initialized
+INFO - 2025-02-26 06:06:28 --> Loader Class Initialized
+ERROR - 2025-02-26 06:06:45 --> Unable to load the requested class: MrasConverter
+ERROR - 2025-02-26 06:07:08 --> Severity: Warning --> Undefined array key "log_stdout" /var/www/html/system/core/Log.php 130
+INFO - 2025-02-26 06:07:08 --> Config Class Initialized
+INFO - 2025-02-26 06:07:08 --> Hooks Class Initialized
+DEBUG - 2025-02-26 06:07:08 --> UTF-8 Support Enabled
+INFO - 2025-02-26 06:07:08 --> Utf8 Class Initialized
+INFO - 2025-02-26 06:07:08 --> URI Class Initialized
+INFO - 2025-02-26 06:07:08 --> Router Class Initialized
+INFO - 2025-02-26 06:07:08 --> Output Class Initialized
+INFO - 2025-02-26 06:07:08 --> Security Class Initialized
+DEBUG - 2025-02-26 06:07:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-02-26 06:07:08 --> Input Class Initialized
+INFO - 2025-02-26 06:07:08 --> Language Class Initialized
+INFO - 2025-02-26 06:07:08 --> Loader Class Initialized
+ERROR - 2025-02-26 06:07:57 --> Severity: Warning --> Undefined array key "log_stdout" /var/www/html/system/core/Log.php 130
+INFO - 2025-02-26 06:07:57 --> Config Class Initialized
+INFO - 2025-02-26 06:07:57 --> Hooks Class Initialized
+DEBUG - 2025-02-26 06:07:57 --> UTF-8 Support Enabled
+INFO - 2025-02-26 06:07:57 --> Utf8 Class Initialized
+INFO - 2025-02-26 06:07:57 --> URI Class Initialized
+INFO - 2025-02-26 06:07:57 --> Router Class Initialized
+INFO - 2025-02-26 06:07:57 --> Output Class Initialized
+INFO - 2025-02-26 06:07:57 --> Security Class Initialized
+DEBUG - 2025-02-26 06:07:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-02-26 06:07:57 --> Input Class Initialized
+INFO - 2025-02-26 06:07:57 --> Language Class Initialized
+INFO - 2025-02-26 06:07:57 --> Loader Class Initialized
+ERROR - 2025-02-26 06:07:57 --> Severity: Warning --> The use statement with non-compound name 'Sentry' has no effect /var/www/html/application/libraries/Log/Logger.php 11
+ERROR - 2025-02-26 06:07:57 --> Severity: Warning --> Undefined property: BaseController::$caseId /var/www/html/application/libraries/Mras/QuestionnaireMras.php 10
+ERROR - 2025-02-26 06:07:57 --> Severity: Warning --> Undefined property: BaseController::$case_id /var/www/html/application/libraries/Mras/MrasConverter.php 100
+INFO - 2025-02-26 06:07:57 --> Controller Class Initialized
+INFO - 2025-02-26 06:08:04 --> Helper loaded: converter_helper
+ERROR - 2025-02-26 06:08:04 --> Severity: Warning --> Undefined property: BaseController::$caseId /var/www/html/application/libraries/Mras/QuestionnaireMras.php 10
+DEBUG - 2025-02-26 06:08:04 --> Config file loaded: /var/www/html/application/config/logging.php
+LOG - 2025-02-26 06:08:04 --> hi
+LOG - 2025-02-26 06:08:04 --> hiii
+ERROR - 2025-02-26 06:08:04 --> Severity: Warning --> Undefined array key "callback_method" /var/www/html/application/helpers/converter_helper.php 70
+INFO - 2025-02-26 06:08:13 --> Final output sent to browser
+DEBUG - 2025-02-26 06:08:13 --> Total execution time: 15.4639
+ERROR - 2025-02-26 06:09:02 --> Severity: Warning --> Undefined array key "log_stdout" /var/www/html/system/core/Log.php 130
+INFO - 2025-02-26 06:09:02 --> Config Class Initialized
+INFO - 2025-02-26 06:09:02 --> Hooks Class Initialized
+DEBUG - 2025-02-26 06:09:02 --> UTF-8 Support Enabled
+INFO - 2025-02-26 06:09:02 --> Utf8 Class Initialized
+INFO - 2025-02-26 06:09:02 --> URI Class Initialized
+INFO - 2025-02-26 06:09:02 --> Router Class Initialized
+INFO - 2025-02-26 06:09:02 --> Output Class Initialized
+INFO - 2025-02-26 06:09:02 --> Security Class Initialized
+DEBUG - 2025-02-26 06:09:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-02-26 06:09:02 --> Input Class Initialized
+INFO - 2025-02-26 06:09:02 --> Language Class Initialized
+INFO - 2025-02-26 06:09:02 --> Loader Class Initialized
+ERROR - 2025-02-26 06:09:02 --> Severity: Warning --> The use statement with non-compound name 'Sentry' has no effect /var/www/html/application/libraries/Log/Logger.php 11
+ERROR - 2025-02-26 06:09:02 --> Severity: Warning --> Undefined property: BaseController::$caseId /var/www/html/application/libraries/Mras/QuestionnaireMras.php 10
+ERROR - 2025-02-26 06:09:02 --> Severity: Warning --> Undefined property: BaseController::$case_id /var/www/html/application/libraries/Mras/MrasConverter.php 100
+INFO - 2025-02-26 06:09:02 --> Controller Class Initialized
+INFO - 2025-02-26 06:09:26 --> Helper loaded: converter_helper
+ERROR - 2025-02-26 06:18:54 --> Severity: Warning --> Undefined array key "log_stdout" /var/www/html/system/core/Log.php 130
+INFO - 2025-02-26 06:18:54 --> Config Class Initialized
+INFO - 2025-02-26 06:18:54 --> Hooks Class Initialized
+DEBUG - 2025-02-26 06:18:54 --> UTF-8 Support Enabled
+INFO - 2025-02-26 06:18:54 --> Utf8 Class Initialized
+INFO - 2025-02-26 06:18:54 --> URI Class Initialized
+INFO - 2025-02-26 06:18:54 --> Router Class Initialized
+INFO - 2025-02-26 06:18:54 --> Output Class Initialized
+INFO - 2025-02-26 06:18:54 --> Security Class Initialized
+DEBUG - 2025-02-26 06:18:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-02-26 06:18:54 --> Input Class Initialized
+INFO - 2025-02-26 06:18:54 --> Language Class Initialized
+INFO - 2025-02-26 06:18:54 --> Loader Class Initialized
+ERROR - 2025-02-26 06:18:54 --> Severity: Warning --> The use statement with non-compound name 'Sentry' has no effect /var/www/html/application/libraries/Log/Logger.php 11
+ERROR - 2025-02-26 06:18:54 --> Severity: Warning --> Undefined property: BaseController::$caseId /var/www/html/application/libraries/Mras/QuestionnaireMras.php 10
+ERROR - 2025-02-26 06:18:54 --> Severity: Warning --> Undefined property: BaseController::$case_id /var/www/html/application/libraries/Mras/MrasConverter.php 100
+INFO - 2025-02-26 06:18:54 --> Controller Class Initialized
+INFO - 2025-02-26 06:18:54 --> Helper loaded: converter_helper
+ERROR - 2025-02-26 06:18:54 --> Severity: error --> Exception: Call to undefined function get_questionnaire() /var/www/html/application/controllers/BaseController.php 23
+ERROR - 2025-02-26 06:19:10 --> Severity: Warning --> Undefined array key "log_stdout" /var/www/html/system/core/Log.php 130
+INFO - 2025-02-26 06:19:10 --> Config Class Initialized
+INFO - 2025-02-26 06:19:10 --> Hooks Class Initialized
+DEBUG - 2025-02-26 06:19:10 --> UTF-8 Support Enabled
+INFO - 2025-02-26 06:19:10 --> Utf8 Class Initialized
+INFO - 2025-02-26 06:19:10 --> URI Class Initialized
+INFO - 2025-02-26 06:19:10 --> Router Class Initialized
+INFO - 2025-02-26 06:19:10 --> Output Class Initialized
+INFO - 2025-02-26 06:19:10 --> Security Class Initialized
+DEBUG - 2025-02-26 06:19:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-02-26 06:19:10 --> Input Class Initialized
+INFO - 2025-02-26 06:19:10 --> Language Class Initialized
+INFO - 2025-02-26 06:19:10 --> Loader Class Initialized
+ERROR - 2025-02-26 06:19:10 --> Severity: Warning --> The use statement with non-compound name 'Sentry' has no effect /var/www/html/application/libraries/Log/Logger.php 11
+ERROR - 2025-02-26 06:19:10 --> Severity: Warning --> Undefined property: BaseController::$caseId /var/www/html/application/libraries/Mras/QuestionnaireMras.php 10
+ERROR - 2025-02-26 06:19:10 --> Severity: Warning --> Undefined property: BaseController::$case_id /var/www/html/application/libraries/Mras/MrasConverter.php 100
+INFO - 2025-02-26 06:19:10 --> Controller Class Initialized
+ERROR - 2025-02-26 06:20:05 --> Severity: Warning --> Undefined array key "log_stdout" /var/www/html/system/core/Log.php 130
+INFO - 2025-02-26 06:20:05 --> Config Class Initialized
+INFO - 2025-02-26 06:20:05 --> Hooks Class Initialized
+DEBUG - 2025-02-26 06:20:05 --> UTF-8 Support Enabled
+INFO - 2025-02-26 06:20:05 --> Utf8 Class Initialized
+INFO - 2025-02-26 06:20:05 --> URI Class Initialized
+INFO - 2025-02-26 06:20:05 --> Router Class Initialized
+INFO - 2025-02-26 06:20:05 --> Output Class Initialized
+INFO - 2025-02-26 06:20:05 --> Security Class Initialized
+DEBUG - 2025-02-26 06:20:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-02-26 06:20:05 --> Input Class Initialized
+INFO - 2025-02-26 06:20:05 --> Language Class Initialized
+INFO - 2025-02-26 06:20:05 --> Loader Class Initialized
+ERROR - 2025-02-26 06:20:05 --> Severity: Warning --> The use statement with non-compound name 'Sentry' has no effect /var/www/html/application/libraries/Log/Logger.php 11
+ERROR - 2025-02-26 06:20:05 --> Severity: Warning --> Undefined property: BaseController::$caseId /var/www/html/application/libraries/Mras/QuestionnaireMras.php 10
+ERROR - 2025-02-26 06:20:05 --> Severity: Warning --> Undefined property: BaseController::$case_id /var/www/html/application/libraries/Mras/MrasConverter.php 100
+INFO - 2025-02-26 06:20:05 --> Controller Class Initialized
+INFO - 2025-02-26 06:20:10 --> Helper loaded: converter_helper
+ERROR - 2025-02-26 06:21:08 --> Severity: Warning --> Undefined array key "log_stdout" /var/www/html/system/core/Log.php 130
+INFO - 2025-02-26 06:21:08 --> Config Class Initialized
+INFO - 2025-02-26 06:21:08 --> Hooks Class Initialized
+DEBUG - 2025-02-26 06:21:08 --> UTF-8 Support Enabled
+INFO - 2025-02-26 06:21:08 --> Utf8 Class Initialized
+INFO - 2025-02-26 06:21:08 --> URI Class Initialized
+INFO - 2025-02-26 06:21:08 --> Router Class Initialized
+INFO - 2025-02-26 06:21:08 --> Output Class Initialized
+INFO - 2025-02-26 06:21:08 --> Security Class Initialized
+DEBUG - 2025-02-26 06:21:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-02-26 06:21:08 --> Input Class Initialized
+INFO - 2025-02-26 06:21:08 --> Language Class Initialized
+INFO - 2025-02-26 06:21:08 --> Loader Class Initialized
+ERROR - 2025-02-26 06:21:08 --> Severity: Warning --> The use statement with non-compound name 'Sentry' has no effect /var/www/html/application/libraries/Log/Logger.php 11
+ERROR - 2025-02-26 06:21:08 --> Severity: Warning --> Undefined property: BaseController::$caseId /var/www/html/application/libraries/Mras/QuestionnaireMras.php 10
+ERROR - 2025-02-26 06:21:08 --> Severity: Warning --> Undefined property: BaseController::$case_id /var/www/html/application/libraries/Mras/MrasConverter.php 100
+INFO - 2025-02-26 06:21:08 --> Controller Class Initialized
+INFO - 2025-02-26 06:21:13 --> Helper loaded: converter_helper
+ERROR - 2025-02-26 06:24:49 --> Severity: Warning --> Undefined array key "log_stdout" /var/www/html/system/core/Log.php 130
+INFO - 2025-02-26 06:24:49 --> Config Class Initialized
+INFO - 2025-02-26 06:24:49 --> Hooks Class Initialized
+DEBUG - 2025-02-26 06:24:49 --> UTF-8 Support Enabled
+INFO - 2025-02-26 06:24:49 --> Utf8 Class Initialized
+INFO - 2025-02-26 06:24:49 --> URI Class Initialized
+INFO - 2025-02-26 06:24:49 --> Router Class Initialized
+INFO - 2025-02-26 06:24:49 --> Output Class Initialized
+INFO - 2025-02-26 06:24:49 --> Security Class Initialized
+DEBUG - 2025-02-26 06:24:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-02-26 06:24:49 --> Input Class Initialized
+INFO - 2025-02-26 06:24:49 --> Language Class Initialized
+INFO - 2025-02-26 06:24:49 --> Loader Class Initialized
+ERROR - 2025-02-26 06:24:49 --> Severity: Warning --> The use statement with non-compound name 'Sentry' has no effect /var/www/html/application/libraries/Log/Logger.php 11
+ERROR - 2025-02-26 06:24:49 --> Severity: Warning --> Undefined property: BaseController::$caseId /var/www/html/application/libraries/Mras/QuestionnaireMras.php 10
+ERROR - 2025-02-26 06:24:49 --> Severity: Warning --> Undefined property: BaseController::$case_id /var/www/html/application/libraries/Mras/MrasConverter.php 100
+INFO - 2025-02-26 06:24:49 --> Controller Class Initialized
+INFO - 2025-02-26 06:24:49 --> Helper loaded: converter_helper
+ERROR - 2025-02-26 06:28:45 --> Severity: Warning --> Undefined array key "method" xdebug://debug-eval 1
+ERROR - 2025-02-26 06:28:52 --> Severity: Warning --> Undefined array key "method" xdebug://debug-eval 1

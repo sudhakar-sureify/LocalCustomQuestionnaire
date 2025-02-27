@@ -1,36 +1,13 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
-if (!function_exists('get_converter')) {
-    function get_converter($type) {
+require_once APPPATH . 'libraries/Mras/Mras.php';
+if (!function_exists('get_medical_questinnaire')) {
+    function get_medical_questinnaire($type,$payload) {
         switch ($type) {
             case 'mras':
-                return new MrasConverter();
-            case 'swisre':
-                return new SwisreConverter();
+                return new Mras($payload);
             default:
-                throw new Exception("Invalid client type");
-        }
-    }
-}
-
-if (!function_exists('get_questionnaire')) {
-    function get_questionnaire($type) {
-        switch ($type) {
-            case 'mras':
-                return new QuestionnaireMras();
-            default:
-                throw new Exception("Invalid client type");
-        }
-    }
-}
-if (!function_exists('get_disclosure')) {
-    function get_disclosure($type) {
-        switch ($type) {
-            case 'mras':
-                return new QuestionnaireMras();
-            default:
-                throw new Exception("Invalid client type");
+                return null;
         }
     }
 }

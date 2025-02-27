@@ -1,6 +1,7 @@
 <?php
 require_once APPPATH . 'controllers/BaseController.php';
-class MrasConverter extends BaseConverter {
+require_once APPPATH . 'libraries/Mras/QuestionnaireMras.php';
+class MrasConverter {
 
     private $dataTypeDisplayTypeMap = array(
         'DATE_PARTIAL' => 'date',
@@ -92,11 +93,12 @@ class MrasConverter extends BaseConverter {
     private $api_id=null;
     private $application_section=null;
     private $questionnaire_mras;
+    private $case_id = null;
     public function __construct(int $id = 4, $application_section = [] ) {  
 
         $this->CI = &get_instance(); // Get CI instance
-        $this->CI->load->library('QuestionnaireMras'); // Load the questionnaire_mras library
-
+        $this->CI->load->library('Mras/QuestionnaireMras'); // Load the questionnaire_mras library
+        $this->case_id=$this->CI->case_id;
         $this->questionnaire_mras = $this->CI->questionnairemras; 
         $this->api_id = $id;
         $this->application_section = $application_section;
@@ -281,7 +283,7 @@ class MrasConverter extends BaseConverter {
                 {
                     $question['child_questions'] = true;
                 }
-                $case_id = 31757;////RedisUtility::getQuoteInformation($_POST['uid'])['external_uuid'];
+                $case_id = $this->case_id;////RedisUtility::getQuoteInformation($_POST['uid'])['external_uuid'];
                 $list_name= $cq['caseDataQuestionMeta']['list']['listName'];
                 $url = "";////BRIGHTHOUSE_URL.$case_id. '/listDefinitions'.'/' ;
                 $response_options = [];////$this->redis->get($case_id.":".$list_name);
@@ -654,7 +656,7 @@ class MrasConverter extends BaseConverter {
             else if ($answerType == 'ENTER_DETAILS')
             {
 
-                $case_id = 31757;////RedisUtility::getQuoteInformation($_POST['uid'])['external_uuid'];
+                $case_id = $this->case_id;////RedisUtility::getQuoteInformation($_POST['uid'])['external_uuid'];
                 $url=BRIGHTHOUSE_URL.$case_id.'/lives/1/interviews/TI/conditions/';
                 $disclosure = $cq;
                 $picklist =$this->questionnaire_mras->getDisclosure($cq['category']['code'],'',$url,'GET')['conditions'];

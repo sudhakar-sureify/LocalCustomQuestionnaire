@@ -1,0 +1,79 @@
+{
+    "caseType": "APPLICATION",
+    "attributes": {
+        "attributes": {
+            "PRODUCT_TYPE": "E_REINSTATEMENT",
+            "CHANNEL": "SUREIFY",
+            "PRODUCT_NAME": "E-Reinstatement",
+            "POLICY_NUMBER": "12345678"
+        }
+    },
+    "lives": [
+        {
+            "lifeInstance": "1",
+            "fullName": "sudhakar kandikattu",
+            "riskTypes": [
+                {
+                    "code": "Lif",
+                    "description": "Life",
+                    "listName": "RiskType"
+                }
+            ],
+            "attributes": {
+                "attributes": {
+                    "RISK_TYPES": "Lif",
+                    "AGE": 0,
+                    "SSN": "111111111",
+                    "FIRST_NAME": "sudhakar",
+                    "LAST_NAME": "kandikattu",
+                    "GENDER": "OLI_GENDER_Female",
+                    "SMOKER_STATUS": "OLI_OTHER",
+                    "UNDERWRITING_METHOD": "SUW",
+                    "APPLICATION_STATE": "OLI_USA_AK",
+                    "COUNTRY_OF_BIRTH": "OLI_NATION_AFGHANISTAN",
+                    "COUNTRY_OF_CITIZENSHIP": "OLI_NATION_AFGHANISTAN",
+                    "BIRTH_STATE": "",
+                    "DATE_OF_BIRTH": "2025-02-01",
+                    "RESIDENCE_ADDRESS_1": "hyd",
+                    "RESIDENCE_CITY": "hyd",
+                    "ZIP": "11111",
+                    "COUNTRY_OF_RESIDENCE": "OLI_NATION_AFGHANISTAN",
+                    "RESIDENCE_STATE": "OLI_USA_AK",
+                    "DRIVERS_LICENSE_RECEIVED": "false",
+                    "DRIVERS_LICENSE_NUM": "",
+                    "DRIVERS_STATE": "",
+                    "DRIVERS_EXP_DATE": "",
+                    "DRIVERS_ISS_DATE": "",
+                    "PRIMARY_PHONE_AREA_CODE": "111",
+                    "PRIMARY_PHONE_NUMBER": "1111111111",
+                    "APPLICANT_EMAIL": "sudhakargoutam@gmail.com",
+                    "ANNUAL_INCOME": "111",
+                    "HOUSEHOLD_INCOME": "",
+                    "NET_WORTH": "11",
+                    "LIFE_FACE_AMOUNT": "11",
+                    "DISPLAY_FACE_AMOUNT": "11",
+                    "LN_PHONE_CLASSIFICATION": "",
+                    "LN_PHONE_AREA": "111",
+                    "LN_PHONE_EXCHANGE": "111",
+                    "LN_PHONE_NUMBER": "1111",
+                    "NAME": "sudhakar kandikattu",
+                    "CURRENTLY_HAS_PHYSICIAN": false
+                },
+                "riskBasedAttributes": {
+                    "ORIGINAL_FACE_AMOUNT": {
+                        "Lif": "11"
+                    },
+                    "FACE_AMOUNT": {
+                        "Lif": "11"
+                    },
+                    "RISK_APPLIED_FOR": {
+                        "Lif": "UNKNOWN"
+                    },
+                    "TOTAL_FACE_AMOUNT": {
+                        "Lif": "11"
+                    }
+                }
+            }
+        }
+    ]
+}
