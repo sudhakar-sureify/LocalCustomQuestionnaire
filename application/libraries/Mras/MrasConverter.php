@@ -94,11 +94,11 @@ class MrasConverter {
     private $application_section=null;
     private $questionnaire_mras;
     private $case_id = null;
-    public function __construct(int $id = 4, $application_section = [] ) {  
+    public function __construct($case_id=null,int $id = 4, $application_section = [] ) {  
 
         $this->CI = &get_instance(); // Get CI instance
         $this->CI->load->library('Mras/QuestionnaireMras'); // Load the questionnaire_mras library
-        $this->case_id=$this->CI->case_id;
+        $this->case_id=$case_id;
         $this->questionnaire_mras = $this->CI->questionnairemras; 
         $this->api_id = $id;
         $this->application_section = $application_section;
