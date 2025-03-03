@@ -11,7 +11,7 @@ class Mras {
     public function __construct($payload) {
         $this->CI =& get_instance();
         $this->questionnaire = new QuestionnaireMras();
-        $this->converter = new MrasConverter();
+        $this->converter = new MrasConverter($payload['case_id']);
         $this->method = $payload['method'];
         $this->question_id = $payload['question_id'];
         $this->url = $payload['url'];
@@ -37,6 +37,9 @@ class Mras {
                 break;
             case 'convert_childquestions':
                 $result = $this->converter->convertChildQuestion($this->child_question,$this->question,$this->provided_data);
+                break;
+            case 'prepare_list_type_question':
+                $result = $this->converter->prepareListTypeQuestion($this->child_question,$this->question,$this->provided_data);
                 break;
             default:
                 $result = [];
